@@ -46,16 +46,13 @@
 			}
 
 		.text {
-			font-family               : 'Sandoval', Helvetica, sans-serif;
+			font-family               : 'Sandoval';
 			/*color                     : #292931;*/
 			-webkit-text-stroke-width : 1px;
 			-webkit-text-stroke-color : #b3b3b3;
-
-			text-rendering            : optimizeLegibility;
 			background                : -webkit-linear-gradient(#44444b, #202026);
 			-webkit-background-clip   : text;
 			-webkit-text-fill-color   : transparent;
-
 			/*text-shadow: 0 0 4px #a7a7a7;*/
 			margin                    : 0;
 			font-size                 : 15vw;
@@ -113,7 +110,7 @@
 <body>
 <div class="container">
 	<a href="https://capchaos.com" target="_self"><img class="image" alt="logo" src="assets/logo.png"></a>
-	<p class="text">Gerhart</p>
+	<p style="text-rendering : optimizeLegibility; font-family: 'Sandoval';" class="text">Gerhart</p>
 </div>
 </body>
 </html>
